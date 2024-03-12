@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa, padding
 def main():
     # Configura o socket do cliente
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = ('localhost', 12345)  # Altere conforme necessário
+    server_address = ('localhost', 12345)  
 
     try:
         # Tenta conectar ao servidor
